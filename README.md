@@ -32,10 +32,14 @@ Create a function that receives a string then it converts uppercase letters into
 | Hello World    | hELLO wORLD    |
 | My name is Ali | mY NAME IS aLI |
 | sHroog         | ShROOG         |
-fun convert(name:String){
-for(i in 0..name.size){
-
+fun convert(name:String):String{
+for(i in 0..name.length){
+if(name[i].isUpperCase())
+{name[i].toLowerCase()
 }
+name[i].toUpperCase()
+}
+return name}}
 
 ## 3rd Challenge
 Create a function that receives an array of items & arrays and returns one flattened array with all items exluding null values.
