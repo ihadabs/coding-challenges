@@ -1,0 +1,52 @@
+
+Coding Challenges
+1st Challenge
+
+fun main() {
+val list= listOf<Int>(5,6,6,5,4)
+    println(list.toSet())
+}
+
+
+
+
+2nd Challenge
+
+
+
+
+
+
+
+
+
+3rd Challenge
+
+
+
+
+
+
+
+
+
+
+4th Challenge
+
+fun main(){
+
+val string="{{{}}}"
+    print( countC(string,'{',']')
+
+}
+
+fun countC(string: String,char1: Char,char2: Char):String{
+  val a=  string.count { it==char1 }
+    val b= string.count { it==char2 }
+
+    return if (a==b){
+        return "true"
+    }else{
+        "false"
+    }
+}
