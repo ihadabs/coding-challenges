@@ -10,6 +10,13 @@ Create a function that receives an integers array and returns the number that ap
 | (2,2,1)         | 1        |
 
 
+/* solution:
+fun ch1(array:Int){
+
+arr.set()
+
+}
+
 ## 2nd Challenge
 Create a function that receives a string then it converts uppercase letters into lowercase and vice versa. The function then should print the converted value.
 
@@ -22,6 +29,14 @@ Create a function that receives a string then it converts uppercase letters into
 | sHroog         | ShROOG         |
 
 
+/* solution:
+fun ch2(array:String):String{
+
+array.toUpperCase()
+
+}
+
+
 ## 3rd Challenge
 Create a function that receives an array of items & arrays and returns one flattened array with all items exluding null values.
 
@@ -32,6 +47,17 @@ Create a function that receives an array of items & arrays and returns one flatt
 | 3 | [[null, 3], [2, 4, 5, null], 0, 8, 3] | [3, 2, 4, 5, 0, 8, 3] |
 | 4 | [3, 5, [5, 9, 0]]                     | [3, 5, 5, 9, 0]       |
 
+/* solution:
+
+fun ch3(array:Int){
+
+for(item in items){
+if (item.isNullOrEmpty()){
+continue
+}else{
+print(item)
+}
+}
 
 ## 4th Challenge
 Create a function that receives a string that contains combination of parentheses, square brackets, and curly braces. Then, it returns true if every opening bracket has a closing pair.
@@ -50,4 +76,8 @@ Create a function that receives a string that contains combination of parenthese
 | {[}])    | false    |
 
 
+/* solution
 
+fun ch4(s:String){
+
+}
