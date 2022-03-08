@@ -49,5 +49,30 @@ Create a function that receives a string that contains combination of parenthese
 | {[(}])   | true     |
 | {[}])    | false    |
 
+Q1 answer
+fun main(){
+ val arr = arrayOf(6,3,2,5,10,2,4,6,9,1)
+        val ints = arr.toList()
+        ints.map 
+       + 
+Q2 answer    
+     fun Char() : String{
+      Hello.lowercase
+      hi.substring(2).uppercase
+      Hello World.lowercase
+     
+     
+     }  
+
+Q3 Answer
+
+ fun main() {
+    
+     val arr = arrayOf(6,3,2,5,10,2,4,6,9,1)
+        val ints = arr.toList()
+    
+        println("Minimum: ${ints.min()}")        
+        println("Maximum: ${ints.max()}")   
+        }
 
 
