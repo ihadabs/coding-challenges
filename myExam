@@ -1,0 +1,40 @@
+fun main(args: Array<String>) {
+
+    //Challenge 1
+    val intNum: IntArray = intArrayOf(2, 4, 6, 4, 9, 6, 2)
+
+    fun number() {
+        for (i in intNum) {
+            println(i)
+        }
+
+    }
+//re
+
+
+
+
+//
+//Challenge 2
+    fun toLower() {
+        var a = "HELLO"
+        a.toLowerCase()
+        println(a)
+    }
+
+    fun toUpper(){
+        var b ="hello"
+        b.toUpperCase()
+        println(b)
+    }
+//ffvvrr
+    //Challenge 3
+val arrayName = arrayOf(1,2,3,4,5)
+
+fun Checknull(){}
+
+    //Challenge 4
+
+
+
+}
