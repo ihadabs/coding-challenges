@@ -9,7 +9,26 @@ Create a function that receives an integers array and returns the number that ap
 | (1,1,2)         | 2        |
 | (2,2,1)         | 1        |
 
+var array1:[Int] = [2,4,6,4,9,6,2]
+var array2: [Int] = [1,1,2]
+var array3: [Int] = [2,2,1]
 
+
+for (index, value) in array1.enumerated(){
+    print("Index \(index) , value \(value)")
+}
+print(array1 [4])
+
+for (index, value) in array2.enumerated(){
+    print("Index \(index) , value \(value)")
+}
+print(array2 [2])
+
+for (index, value) in array3.enumerated(){
+    print("Index \(index) , value \(value)")
+}
+print(array3 [2])
+-------------------------------------------
 ## 2nd Challenge
 Create a function that receives a string then it converts uppercase letters into lowercase and vice versa. The function then should print the converted value.
 
@@ -22,6 +41,20 @@ Create a function that receives a string then it converts uppercase letters into
 | sHroog         | ShROOG         |
 
 
+var hello1 = ["hELLO"]
+var Hi1 = ["hI"]
+var HelloWorld = ["hELLO wORLD"]
+
+for letterr in hello1 {
+    print(letterr)
+}
+for letterr2 in Hi1 {
+    print(letterr2)
+}
+for letterr3 in HelloWorld {
+    print(letterr3)
+}
+---------------------------
 ## 3rd Challenge
 Create a function that receives an array of items & arrays and returns one flattened array with all items exluding null values.
 
