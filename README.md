@@ -1,5 +1,4 @@
 # Coding Challenges
-
 ## 1st Challenge
 Create a function that receives an integers array and returns the number that appeared only once.
 
