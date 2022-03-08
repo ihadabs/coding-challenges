@@ -9,6 +9,16 @@ Create a function that receives an integers array and returns the number that ap
 | (1,1,2)         | 2        |
 | (2,2,1)         | 1        |
 
+func nameLabel(_ ah:[Int]) {
+     for array in ah {
+         for araa in [array] {
+             if araa != array {
+                 print(araa)
+         }
+       }
+    }
+ }
+nameLabel([2,4,6,4,9,6,2])
 
 ## 2nd Challenge
 Create a function that receives a string then it converts uppercase letters into lowercase and vice versa. The function then should print the converted value.
@@ -20,7 +30,11 @@ Create a function that receives a string then it converts uppercase letters into
 | Hello World    | hELLO wORLD    |
 | My name is Ali | mY NAME IS aLI |
 | sHroog         | ShROOG         |
-
+ 
+func up(_ name:String) -> String {
+     return name.lowercased()
+ }
+up(Hello)
 
 ## 3rd Challenge
 Create a function that receives an array of items & arrays and returns one flattened array with all items exluding null values.
