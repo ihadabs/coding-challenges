@@ -10,6 +10,24 @@ Create a function that receives an integers array and returns the number that ap
 | (2,2,1)         | 1        |
 
 
+func unique(array : [Int]) -> Int {
+    
+     let i = 0
+    
+    for i in array {
+        if i == i {
+        return i
+        }
+    }
+ 
+   return i
+}
+
+
+unique(array: [2,4,6,4,9,6,2])
+
+
+
 ## 2nd Challenge
 Create a function that receives a string then it converts uppercase letters into lowercase and vice versa. The function then should print the converted value.
 
@@ -20,6 +38,26 @@ Create a function that receives a string then it converts uppercase letters into
 | Hello World    | hELLO wORLD    |
 | My name is Ali | mY NAME IS aLI |
 | sHroog         | ShROOG         |
+
+
+
+func rechage( name : String) -> String {
+    
+    for i in name {
+        if i.isUppercase {
+           i.lowercased()
+        }
+        else {
+           i.uppercased()
+
+        }
+    }
+    return name
+
+}
+
+rechage(name: "Nora")
+
 
 
 ## 3rd Challenge
