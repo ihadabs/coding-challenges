@@ -21,6 +21,16 @@ Create a function that receives a string then it converts uppercase letters into
 | My name is Ali | mY NAME IS aLI |
 | sHroog         | ShROOG         |
 
+//Answer 
+
+func convertFromUppeToLower (word: String) {
+  
+  if word == word.lowercased() {
+    print(word.uppercased())
+  } else if word == word.uppercased(){
+    print(word.lowercased())
+  }
+}
 
 ## 3rd Challenge
 Create a function that receives an array of items & arrays and returns one flattened array with all items exluding null values.
@@ -32,6 +42,13 @@ Create a function that receives an array of items & arrays and returns one flatt
 | 3 | [[null, 3], [2, 4, 5, null], 0, 8, 3] | [3, 2, 4, 5, 0, 8, 3] |
 | 4 | [3, 5, [5, 9, 0]]                     | [3, 5, 5, 9, 0]       |
 
+//Answer
+
+func removeAllNils(array: [Int?]) -> [Int] {
+    return array
+        .filter({ $0 != nil })
+        .map({ $0! })
+}
 
 ## 4th Challenge
 Create a function that receives a string that contains combination of parentheses, square brackets, and curly braces. Then, it returns true if every opening bracket has a closing pair.
