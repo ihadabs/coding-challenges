@@ -50,4 +50,30 @@ Create a function that receives a string that contains combination of parenthese
 | {[}])    | false    |
 
 
+1 - func getNumbers(numbers:Int){
+   var arr = [2,4,6,9,6,2]
+    print(arr)
+}
+
+ 2 - func changeWo(){
+    var say = "Hello"
+    var say1 = "hi"
+   var name = "my name is ali"
+    var name2 = "sHroog"
+    print("Hello:\(say),hi\(say1),name\(name)name2,\(name2)")
+}
+changeWo()
+
+
+3 - func getNum(){
+    var null : Int
+    var num1 = [1,[2,3,null,4],[null],5] as [Any]
+    var num2 = [7, 0,[null],[null, null, 9]] as [Any]
+    var num3 = [[null, 3], [2, 4, 5, null], 0, 8, 3] as [Any]
+    var num4 = [3, 5, [5, 9, 0]] as [Any]
+}
+getNum()
+
+
+
 
