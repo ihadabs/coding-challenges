@@ -10,13 +10,16 @@ Create a function that receives an integers array and returns the number that ap
 | (2,2,1)         | 1        |
 
 answer:
+
+```
+
 func move() -> [Int]{
     let num : Int
     if var number == num {
         print(num)
     }
 }
-
+```
 
 ## 2nd Challenge
 Create a function that receives a string then it converts uppercase letters into lowercase and vice versa. The function then should print the converted value.
@@ -30,12 +33,17 @@ Create a function that receives a string then it converts uppercase letters into
 | sHroog         | ShROOG         |
 
 answer: 
+
+```
+
 func converse()  -> (String) {
     let letter : String
     if let letter == String.uppercased(<#T##self: String##String#>){
         
     }
 }
+```
+
 ## 3rd Challenge
 Create a function that receives an array of items & arrays and returns one flattened array with all items exluding null values.
 
