@@ -32,6 +32,27 @@ Create a function that receives an array of items & arrays and returns one flatt
 | 3 | [[null, 3], [2, 4, 5, null], 0, 8, 3] | [3, 2, 4, 5, 0, 8, 3] |
 | 4 | [3, 5, [5, 9, 0]]                     | [3, 5, 5, 9, 0]       |
 
+answer
+
+import UIKit
+
+//var greeting = "Hello, playground"
+
+
+func getn(array: Int){
+    var list = [1,2,nil,6,5,nil]
+    for list in list{
+        if list == nil {
+         print(list)
+        }
+    }
+}
+    
+
+
+
+
+
 
 ## 4th Challenge
 Create a function that receives a string that contains combination of parentheses, square brackets, and curly braces. Then, it returns true if every opening bracket has a closing pair.
