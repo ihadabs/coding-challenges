@@ -36,6 +36,19 @@ Create a function that receives an array of items & arrays and returns one flatt
 ## 4th Challenge
 Create a function that receives a string that contains combination of parentheses, square brackets, and curly braces. Then, it returns true if every opening bracket has a closing pair.
 
+##Sol :
+var st = Utils.readString()
+let a = "{"
+let aa = "}"
+let b = "("
+let bb = ")"
+let c = "["
+let cc = "]"
+
+if st == a && aa || b && bb || c && cc
+    print ("true")
+    
+    
 | Input    | Output |
 | -------- | -------- |
 | }{       | false    |
