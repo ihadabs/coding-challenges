@@ -1,5 +1,5 @@
 # Coding Challenges
-
+1
 ## 1st Challenge
 Create a function that receives an integers array and returns the number that appeared only once.
 
@@ -49,5 +49,108 @@ Create a function that receives a string that contains combination of parenthese
 | {[(}])   | true     |
 | {[}])    | false    |
 
+//---------------------------------- answers ...
 
+import UIKit
 
+/*
+ Create a function that receives an integers array and returns the number that appeared only once.
+ | Input           | Output   |
+ | --------------- | -------- |
+ | (2,4,6,4,9,6,2) | 9        |
+ | (1,1,2)         | 2        |
+ | (2,2,1)         | 1        |
+ */
+//func myfunc(numbers: [Int] )-> Int{
+//    var num = -0
+//    for i in numbers{
+////        for j in i {
+////            if j == i {
+////                numbers.remove(at: i)
+////            }
+//        }
+//    }
+//}
+//
+//myfunc(numbers: [1,1,2])
+
+//----------------------------------
+/*
+## 2nd Challenge
+Create a function that receives a string then it converts uppercase letters into lowercase and vice versa. The function then should print the converted value.
+
+| Input          | Output         |
+| -------------- | -------------- |
+| Hello          | hELLO          |
+| Hi             | hI             |
+| Hello World    | hELLO wORLD    |
+| My name is Ali | mY NAME IS aLI |
+| sHroog         | ShROOG         |
+*/
+
+//func myFunc2(word: String){
+//    var lower = word.lowercased()
+//    print(lower)
+//}
+//
+//myFunc2(word: "HI")
+//----------------------------------
+/*
+
+## 3rd Challenge
+Create a function that receives an array of items & arrays and returns one flattened array with all items exluding null values.
+
+| N | Input                                 | Output                |
+| - | ------------------------------------- | --------------------- |
+| 1 | [1,[2,3,null,4],[null],5]             | [1,2,3,4,5]           |
+| 2 | [7, 0,[null],[null, null, 9]]         | [7, 0, 9]             |
+| 3 | [[null, 3], [2, 4, 5, null], 0, 8, 3] | [3, 2, 4, 5, 0, 8, 3] |
+| 4 | [3, 5, [5, 9, 0]]                     | [3, 5, 5, 9, 0]       |
+
+*/
+
+//func myFunc3(myArray: [Any]) -> [Any]{
+//return myArray
+//}
+
+/*
+
+## 4th Challenge
+Create a function that receives a string that contains combination of parentheses, square brackets, and curly braces. Then, it returns true if every opening bracket has a closing pair.
+
+| Input    | Output |
+| -------- | -------- |
+| }{       | false    |
+| ()       | true     |
+| )({}     | false    |
+| ({ }})   | false    |
+| ({ })    | true     |
+| {{()}}   | true     |
+| {{()}    | false    |
+| [{}]     | true     |
+| {[(}])   | true     |
+| {[}])    | false    |
+*/
+
+func myFunc4(myString: String) -> Bool{
+var openedCounter = 0
+var closedCounter = 0
+
+    for i in myString{
+        if i == "{" || "(" {
+            openCounter += 1
+        }
+        else if i == "}" || ")" {
+            closedCounter += 1
+        }
+        if openedCounter == closedCounter{
+            return true
+        }
+        else {
+            return false
+        }
+    return true
+    }
+}
+
+myFunc4(myString: "{}")
