@@ -50,4 +50,35 @@ Create a function that receives a string that contains combination of parenthese
 | {[}])    | false    |
 
 
+----------------------------------
+
+import Foundation
+
+
+func onlyOneNumber( number : [Int]){
+    var index = 0
+    for num in number{
+        
+        if num != number[index]{
+            
+         print(num)
+        }
+       index = index + 1
+    }
+    
+}
+
+
+func smallletter( word : String){
+    
+    
+    for char in word{
+        if ((word.first?.isUppercase) != nil){
+          char.lowercased()
+            
+        }
+        print(word)
+    }
+    
+}
 
