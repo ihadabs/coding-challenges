@@ -48,6 +48,19 @@ Create a function that receives a string that contains combination of parenthese
 | [{}]     | true     |
 | {[(}])   | true     |
 | {[}])    | false    |
+//--------------------------
 
+
+// 1
+
+func array (arr:[Int]) -> Int {
+     var arr1 = [2,4,6,4,9,6,2]
+    for i in arr1  {
+        if i != i {
+        print(i)
+        }
+    }
+   return 1
+}
 
 
