@@ -10,6 +10,20 @@ Create a function that receives an integers array and returns the number that ap
 | (2,2,1)         | 1        |
 
 
+
+#Ans/
+func intArray(_ a:[Int]) {
+    for i in a {
+        for s in i {
+            if s != i {
+                print(s)
+        }
+       
+        }
+    }
+}
+
+
 ## 2nd Challenge
 Create a function that receives a string then it converts uppercase letters into lowercase and vice versa. The function then should print the converted value.
 
@@ -22,6 +36,12 @@ Create a function that receives a string then it converts uppercase letters into
 | sHroog         | ShROOG         |
 
 
+#Ans/
+
+func uppTolow(_ a:String) -> String {
+    return a.lowercased()
+}
+
 ## 3rd Challenge
 Create a function that receives an array of items & arrays and returns one flattened array with all items exluding null values.
 
@@ -31,6 +51,16 @@ Create a function that receives an array of items & arrays and returns one flatt
 | 2 | [7, 0,[null],[null, null, 9]]         | [7, 0, 9]             |
 | 3 | [[null, 3], [2, 4, 5, null], 0, 8, 3] | [3, 2, 4, 5, 0, 8, 3] |
 | 4 | [3, 5, [5, 9, 0]]                     | [3, 5, 5, 9, 0]       |
+
+
+#Ans 
+
+func itemArray(_ a: [Array<Any>]) -> Array<Any> {
+    if a != nil {
+        return [s]
+    }
+}
+
 
 
 ## 4th Challenge
