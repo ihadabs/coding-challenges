@@ -1,5 +1,5 @@
 # Coding Challenges
-
+    
 ## 1st Challenge
 Create a function that receives an integers array and returns the number that appeared only once.
 
@@ -8,6 +8,14 @@ Create a function that receives an integers array and returns the number that ap
 | (2,4,6,4,9,6,2) | 9        |
 | (1,1,2)         | 2        |
 | (2,2,1)         | 1        |
+
+fun main(args: Array<String>) {
+println(printArray1.appeared)
+}
+
+fun printArray1(array1:Int){
+val array1= arrayListOf<Int>(2,4,6,4,9,6,2)
+}
 
 
 ## 2nd Challenge
