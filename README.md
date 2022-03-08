@@ -8,8 +8,15 @@ Create a function that receives an integers array and returns the number that ap
 | (2,4,6,4,9,6,2) | 9        |
 | (1,1,2)         | 2        |
 | (2,2,1)         | 1        |
+answer -----------------------------------------------------
 
-
+fun main() {
+var x = arrayOf(1,1,2)
+x.toIntArray()
+for(i in x){
+x.iterator().toString()
+println(x)    }
+}
 ## 2nd Challenge
 Create a function that receives a string then it converts uppercase letters into lowercase and vice versa. The function then should print the converted value.
 
@@ -20,8 +27,12 @@ Create a function that receives a string then it converts uppercase letters into
 | Hello World    | hELLO wORLD    |
 | My name is Ali | mY NAME IS aLI |
 | sHroog         | ShROOG         |
-
-
+answer -----------------------------------------------------
+fun main() {
+val y = "hdd"
+y.capitalize()
+println(y)
+}
 ## 3rd Challenge
 Create a function that receives an array of items & arrays and returns one flattened array with all items exluding null values.
 
