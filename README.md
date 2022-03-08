@@ -9,7 +9,19 @@ Create a function that receives an integers array and returns the number that ap
 | (1,1,2)         | 2        |
 | (2,2,1)         | 1        |
 
+}
+fun num(list:List<Int>): Int{
+var num=0
+var dis=0
+for(i in 0..list.size){
+num=list[i]
+for(j in i+1..list.size){
+if(list[i]==list[j]){}
 
+
+    }
+
+}
 ## 2nd Challenge
 Create a function that receives a string then it converts uppercase letters into lowercase and vice versa. The function then should print the converted value.
 
@@ -20,7 +32,10 @@ Create a function that receives a string then it converts uppercase letters into
 | Hello World    | hELLO wORLD    |
 | My name is Ali | mY NAME IS aLI |
 | sHroog         | ShROOG         |
+fun convert(name:String){
+for(i in 0..name.size){
 
+}
 
 ## 3rd Challenge
 Create a function that receives an array of items & arrays and returns one flattened array with all items exluding null values.
@@ -50,4 +65,7 @@ Create a function that receives a string that contains combination of parenthese
 | {[}])    | false    |
 
 
-
+fun parentheses(parentheses:String):Boolean{
+for(i  in 0..parentheses.size){
+if(parentheses)
+}
