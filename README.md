@@ -51,3 +51,36 @@ Create a function that receives a string that contains combination of parenthese
 
 
 
+My solution :
+
+var arr = [1,2,3,4,5,6,7,8]
+func num(x:Int , y :Int) ->Int  {
+     arr > x
+}
+print(num(x: 5, y: 9))
+
+
+func wordss(a:String ) -> String {
+    return a.lowercased()
+}
+print(wordss(a: "Hello"))
+
+
+var array = [1,2,nil,6,4,2,nil,6,nil]
+
+var newArray:[Int] = []
+var counter = 0
+while counter < array.count {
+    if array[counter] == nil {
+        print("found nil")
+    }else {
+        newArray.append(array[counter] ?? 1)
+    }
+    counter += 1
+}
+print(newArray)
+
+func aaa(a:String , b: String) -> Bool {
+    return a == b
+}
+print(aaa(a: "}", b: "{"))
