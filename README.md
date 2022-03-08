@@ -8,7 +8,39 @@ Create a function that receives an integers array and returns the number that ap
 | (2,4,6,4,9,6,2) | 9        |
 | (1,1,2)         | 2        |
 | (2,2,1)         | 1        |
+ --------------------------
+challenge one :
 
+fun main (){
+    println("9")
+}
+fun number(ints: Array<Int>) {
+var number : Array<Int> = arrayOf (2,4,6,4,9,6,2)
+--------------------
+chaellnge two :
+fun main () {
+
+var n1 = number2(1,1,2)
+
+    println(n1)
+}
+fun number2 (num: Int , num2 :Int , num3 : Int):Int{
+return num3
+
+}
+-----------------
+challenge three :
+fun main () {
+
+var n1 = number2(2,2,1)
+
+    println(n1)
+}
+fun number2 (num: Int , num2 :Int , num3 : Int):Int{
+return num3
+
+}
+}
 
 ## 2nd Challenge
 Create a function that receives a string then it converts uppercase letters into lowercase and vice versa. The function then should print the converted value.
@@ -20,6 +52,8 @@ Create a function that receives a string then it converts uppercase letters into
 | Hello World    | hELLO wORLD    |
 | My name is Ali | mY NAME IS aLI |
 | sHroog         | ShROOG         |
+
+
 
 
 ## 3rd Challenge
