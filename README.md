@@ -9,6 +9,36 @@ Create a function that receives an integers array and returns the number that ap
 | (1,1,2)         | 2        |
 | (2,2,1)         | 1        |
 
+fun main() {
+
+    fun first(interArray: ArrayList<Int>) {
+        val y = ArrayList<Int>()
+        y.add(2)
+        y.add(4)
+        y.add(6)
+        y.add(4)
+        y.add(9)
+        y.add(6)
+        y.add(2)
+        val x = y.contains(9)
+        println(x)
+
+        val z = ArrayList<Int>()
+        y.add(1)
+        y.add(1)
+        y.add(2)
+        val m = z.contains(2)
+        println(m)
+
+        val v = ArrayList<Int>()
+        y.add(2)
+        y.add(2)
+        y.add(1)
+        val b = v.contains(1)
+        println(b)
+    }
+
+
 
 ## 2nd Challenge
 Create a function that receives a string then it converts uppercase letters into lowercase and vice versa. The function then should print the converted value.
@@ -20,6 +50,8 @@ Create a function that receives a string then it converts uppercase letters into
 | Hello World    | hELLO wORLD    |
 | My name is Ali | mY NAME IS aLI |
 | sHroog         | ShROOG         |
+
+fun main(){
 
 
 ## 3rd Challenge
