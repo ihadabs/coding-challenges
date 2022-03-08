@@ -54,7 +54,7 @@ for letterr2 in Hi1 {
 for letterr3 in HelloWorld {
     print(letterr3)
 }
-
+---------------------------
 ## 3rd Challenge
 Create a function that receives an array of items & arrays and returns one flattened array with all items exluding null values.
 
